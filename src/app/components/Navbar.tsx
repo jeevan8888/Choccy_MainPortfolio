@@ -78,7 +78,7 @@ export default function Navbar() {
           </div>
         </nav>
         <Link
-          href={"https://swap-swap2choccy.vercel.app/swap"}
+          href={"https://choccy-swap.vercel.app/swap"}
           target="_blank"
           className="bg-[#F202FF] hidden md:block uppercase hover:scale-105 transform transition-all duration-300 text-sm md:text-base font-poppins font-semibold text-white rounded-[10px] px-4 md:px-[25px] py-3 md:py-[17px]"
         >
@@ -145,7 +145,7 @@ export default function Navbar() {
           </nav>
           <div className="mt-auto p-8">
             <Link
-              href={"https://swap-swap2choccy.vercel.app/swap"}
+              href={"https://choccy-swap.vercel.app/swap"}
               target="_blank"
               className="w-full bg-[#F202FF] uppercase hover:scale-105 transform transition-all duration-300 text-sm font-poppins font-semibold text-white rounded-[10px] px-4 py-3"
             >
