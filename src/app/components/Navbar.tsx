@@ -30,9 +30,9 @@ export default function Navbar() {
           height={72}
           className="md:hidden"
         />
-        <nav className="bg-[#202020]  hidden md:block mr-8 px-16 w-fit rounded-full font-poppins text-[#CECECE] relative">
+        <nav className="bg-[#202020]  hidden md:block mr-8 px-10 xl:px-16 w-fit rounded-full font-poppins text-[#CECECE] relative">
           <div className="w-fit mx-auto flex items-center justify-between">
-            <div className="flex  space-x-5 items-center justify-center">
+            <div className="flex space-x-5 items-center justify-center">
               <Link href="#" className="hover:text-white transition-colors">
                 Stats
               </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
         <Link
           href={"https://swap-swap2choccy.vercel.app/swap"}
           target="_blank"
-          className="bg-[#F202FF] hidden md:block uppercase hover:scale-105 transform transition-all duration-300 text-sm md:text-base font-poppins font-semibold text-white rounded-[10px] px-4 md:px-[25px] py-[10px] "
+          className="bg-[#F202FF] hidden md:block uppercase hover:scale-105 transform transition-all duration-300 text-sm md:text-base font-poppins font-semibold text-white rounded-[10px] px-4 md:px-[25px] py-[10px] xl:py-3 "
         >
           Swap Now
         </Link>
@@ -147,7 +147,7 @@ export default function Navbar() {
             <Link
               href={"https://swap-swap2choccy.vercel.app/swap"}
               target="_blank"
-              className="w-full py-[10px] bg-[#F202FF] uppercase hover:scale-105 transform transition-all duration-300 text-sm font-poppins font-semibold text-white rounded-[10px] px-6"
+              className="w-full py-3 bg-[#F202FF] uppercase hover:scale-105 transform transition-all duration-300 text-sm font-poppins font-semibold text-white rounded-[10px] px-6"
             >
               Swap Now
             </Link>
